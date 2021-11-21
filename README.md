@@ -1,7 +1,7 @@
 # tinder_bot_edit
 Editing a Tinder bot created by @frederikme
 
-## Steps for Using the Bot to Automatically Like and Dislike `n` number of times
+## Steps for Using the Bot to Automatically Like `n` number of times
 1. Download the code as a zip or clone the repository from https://github.com/frederikme/TinderBotz
 2. Setup a [virtual environment](https://docs.python.org/3/library/venv.html) by writing `$ python -m venv \path\to\your\virtual\environment`
 3. Move the folders and files inside the **TinderBotz-Master** folder to the venv folder ![Imgur](https://imgur.com/ZDZMiHW.jpg)
