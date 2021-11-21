@@ -1,5 +1,5 @@
 # tinder_bot_edit
-Editing a Tinder bot created by @frederikme
+Editing a Tinder bot created by [@frederikme](https://github.com/frederikme)
 
 ## Steps for Using the Bot to Automatically Like `n` number of times
 1. Download the code as a zip or clone the repository from https://github.com/frederikme/TinderBotz
