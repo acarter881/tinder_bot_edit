@@ -15,3 +15,4 @@ Editing a Tinder bot created by [@frederikme](https://github.com/frederikme)
 *Note: For more functionality, please read Frederik's GitHub repository*
 9. Once the script has finished, the stats should appear on your terminal and Chrome will be closed <br> ![Imgur](https://imgur.com/w6HWVpV.jpg)
 10. To get out of the virtual environment, run `$ deactivate` <br> ![Imgur](https://imgur.com/6BTnak0.jpg)
+11. **FYI** - This function is called on exit of the script <br> ![Imgur](https://imgur.com/WmzBaMr.jpg)
