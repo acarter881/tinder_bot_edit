@@ -24,7 +24,30 @@ if __name__ == "__main__":
     session = Session()                              # Instance of the Session Class                
     session.like(amount=25, ratio="84.5%", sleep=3)  # Edit these arguments to your liking
 ```
-*Note: For more functionality, please read Frederik's GitHub repository*
 - Once the script has finished, the stats should appear on your terminal and Chrome will be closed <br> ![Imgur](https://imgur.com/w6HWVpV.jpg) <br>
 - To get out of the virtual environment, run `$ deactivate` <br> ![Imgur](https://imgur.com/6BTnak0.jpg) <br>
-- **FYI** - This function is called on exit of the script <br> ![Imgur](https://imgur.com/WmzBaMr.jpg)
+- **FYI** - This function is called on exit of the script: <br> 
+```python
+# this function will run when the session ends
+@atexit.register
+def cleanup():
+    # End session duration
+    seconds = int(time.time() - start_session)
+    self.session_data["duration"] = seconds
+
+    # add session data into a list of messages
+    lines = []
+
+    for key in self.session_data:
+        message = "{}: {}".format(key, self.session_data[key])
+        lines.append(message)
+
+    # print out the statistics of the session
+    try:
+        box = self._get_msg_box(lines=lines, title="Tinderbotz")
+        print(box)
+    finally:
+        print("Started session: {}".format(self.started))
+        y = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        print("Ended session: {}".format(y))
+```
