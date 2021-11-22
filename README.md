@@ -3,10 +3,10 @@ Editing a Tinder bot created by [@frederikme](https://github.com/frederikme)
 
 ## Table of Contents
 
-- [Basic Swipe Usage](#basic-swipe-usage)
+- [Basic Swipe Bot](#basic-swipe-bot)
 
 
-## Basic Swipe Usage
+## Basic Swipe Bot
 - Download the code as a zip or clone the repository from https://github.com/frederikme/TinderBotz
 - Setup a [virtual environment](https://docs.python.org/3/library/venv.html) by writing `$ python -m venv \path\to\your\virtual\environment`
 - Move the folders and files inside the **TinderBotz-Master** folder to the venv folder ![Imgur](https://imgur.com/ZDZMiHW.jpg)
