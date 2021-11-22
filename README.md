@@ -28,7 +28,6 @@ if __name__ == "__main__":
 - To get out of the virtual environment, run `$ deactivate` <br> ![Imgur](https://imgur.com/6BTnak0.jpg) <br>
 - **FYI** - This function is called on exit of the script: <br> 
 ```python
-# this function will run when the session ends
 @atexit.register
 def cleanup():
     # End session duration
