@@ -9,7 +9,7 @@ Editing a Tinder bot created by [@frederikme](https://github.com/frederikme)
 *Note: I'm using PowerShell on Windows*
 5. Change directory into the venv `$ cd .\my_venv\` <br> ![Imgur](https://imgur.com/vjIJtzH.jpg)
 6. Download all required Python libraries by running `$ pip install -r requirements.txt` ![Imgur](https://imgur.com/JZpB56G.jpg)
-7. Log in to Tinder on Google Chrome then exit Chrome.
+7. Log in to Tinder on Google Chrome then exit Chrome. <br>
 *Note: The script will open Chrome for you*
 9. Run my modified version of `quickstart.py` for the easiest start <br>
 *Note: For more functionality, please read Frederik's GitHub repository*
