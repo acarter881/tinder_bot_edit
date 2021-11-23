@@ -26,6 +26,7 @@ if __name__ == "__main__":
 ```
 - Once the script has finished, the stats should appear on your terminal and Chrome will be closed <br> ![Imgur](https://imgur.com/w6HWVpV.jpg) <br>
 - To get out of the virtual environment, run `$ deactivate` <br> ![Imgur](https://imgur.com/6BTnak0.jpg) <br>
+- If successful, Chrome will open and go to tinder.com/app/recs and start swiping <br> ![Imgur](https://imgur.com/S0muSUK.gif)
 - **FYI** - This function is called on exit of the script: <br> 
 ```python
 @atexit.register
